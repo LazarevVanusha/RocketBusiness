@@ -1,0 +1,733 @@
+a, p, svg, nav {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+@media (max-width: 992px) {
+
+  #phone {
+    font-size: 16px;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    padding-right: 20px !important;
+
+  }
+
+  #city {
+    font-size: 13px;
+    font-family: 'PT Sans Caption', sans-serif;
+    text-align: right;
+    padding-right: 20px !important;
+  }
+
+  #logo {
+    font-size: 32px !important;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-weight: bold;
+    color: #0DBC91;
+    /*padding-right: 40px!important;*/
+  }
+
+  .navTop .icon img {
+    display: none;
+  }
+
+  .navbar-collapse {
+    background-color: rgba(69, 146, 127, 0.9); /* 0.5 - полупрозрачный */
+    backdrop-filter: blur(2px);
+    position: absolute;
+    top: 75px;
+    /*bottom: 0;*/
+    width: 100%;
+    z-index: 999;
+
+  }
+
+  #contacts {
+
+  }
+
+  .nav-item {
+    font-size: 16px;
+    padding-left: 19px !important;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-style: normal;
+    line-height: 24px;
+  }
+
+  .nav-link {
+    color: white !important;
+  }
+
+  #info {
+    padding-top: 48px !important;
+  }
+
+  .moreBtn {
+    padding-top: 10px !important;
+  }
+
+  .container-fluid {
+    padding: 0 !important;
+    max-height: 65px;
+    padding-bottom: 75px !important;
+  }
+
+
+  #doctorApp {
+    margin-top: 50px !important;
+    margin-bottom: 60vh !important;
+    width: 60%;
+    padding: 10px 0px 10px 0px !important;
+    border-radius: 50px;
+    background-color: aliceblue;
+    color: #0DBC91;
+    border: none;
+  }
+
+  #doctorApp:hover {
+    background-color: #0DBC91;
+    color: white;
+    border: none;
+  }
+
+  .img-fluid {
+    /*position: absolute;*/
+    width: 100%;
+  }
+
+  .h1 {
+    margin-top: 40px !important;
+    font-size: 26px;
+    line-height: 34px;
+    max-width: 65%;
+    font-weight: bold;
+    color: #364844;
+    margin-left: 5% !important;
+  }
+
+  .lead {
+    margin-left: 5% !important;
+    margin-top: 5% !important;
+    max-width: 90%;
+    margin-bottom: 190px !important;
+  }
+
+  .ham {
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 300ms;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: none;
+  }
+
+  .hamRotate.active {
+    transform: rotate(45deg);
+  }
+
+  .hamRotate180.active {
+    transform: rotate(180deg);
+  }
+
+  .line {
+    fill: none;
+    transition: stroke-dasharray 500ms, stroke-dashoffset 500ms;
+    stroke: #0DBC91;
+    stroke-width: 5.5;
+    stroke-linecap: round;
+
+  }
+
+  .ham1 .top {
+    stroke-dasharray: 40 139;
+
+  }
+
+  .ham1 .bottom {
+    stroke-dasharray: 40 180;
+  }
+
+  .ham1.active .top {
+    stroke-dashoffset: -98px;
+  }
+
+  .ham1.active .bottom {
+    stroke-dashoffset: -138px;
+  }
+
+  #doctorApp2 {
+    display: none;
+  }
+
+  .carousel {
+    margin-top: 6%;
+    background-color: #E2F0EF;
+    font-family: 'PT Sans Caption', sans-serif;
+
+  }
+
+
+  .carousel-inner {
+    position: relative;
+  }
+
+  .carousel-indicators {
+    margin: 0 !important;
+    margin-top: 200px !important;
+  }
+
+  .carousel-item {
+
+  }
+
+  .subtitle {
+    font-size: 20px !important;
+    padding-left: 12px !important;
+  }
+
+
+  .checkUp {
+    width: 100% !important;
+  }
+
+  .checkUpImg {
+    position: relative;
+    object-fit: fill;
+    display: none !important;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    max-width: 60% !important;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+  }
+
+  .checkUpText {
+    padding: 2rem;
+
+    margin-bottom: 20px;
+  }
+
+  .checkUpText h1 {
+    font-weight: bold;
+
+  }
+
+  .checkUpText li {
+    position: relative;
+    line-height: 40px;
+    color: #0DBC91;
+    font-size: 25px;
+
+
+  }
+
+  .checkUpText li span {
+    color: #364844;
+    font-size: 20px;
+
+
+  }
+
+  .count {
+    padding-left: 0.5rem !important;
+    font-size: 20px;
+  }
+
+  .checkUpText .btn {
+    margin-top: 2rem !important;
+    margin-right: 1rem !important;
+  }
+
+  #doctorApp3 {
+    position: relative;
+    width: 35%;
+    padding: 10px 0px 10px 0px !important;
+    border-radius: 50px;
+    background-color: #0DBC91;
+    color: white;
+    border: none;
+  }
+
+  #doctorApp4 {
+    width: 35%;
+    padding: 10px 0px 10px 0px !important;
+    border-radius: 50px;
+    border-color: #0DBC91;
+    background-color: #E2F0EF;
+    color: #0DBC91;;
+  }
+
+  #doctorApp3:hover {
+    background-color: #E2F0EF;
+    color: #0DBC91;
+    border: 1px solid #0DBC91;
+  }
+
+  #doctorApp4:hover {
+    background-color: #0DBC91;
+    color: #E2F0EF;
+    border: 1px solid #0DBC91;
+  }
+
+  .footer-20192 {
+    position: relative;
+    color: #fff;
+    padding: .5rem;
+    margin-top: 20vh;
+    background-color: #08664F;
+  }
+
+  .footer-20192 .container {
+    position: relative;
+  }
+
+  .footer-20192 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .site-section {
+    padding-top: 20px;
+    width: auto;
+  }
+
+  .footer-20192 .social li {
+    display: inline-block;
+    position: relative;
+  }
+
+  .footer-20192 .social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-20192 .social li a > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .footer-20192 .footer-logo {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: bold;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .icon {
+    margin-right: 20px;
+    margin-left: 20px;
+
+  }
+
+  .col {
+    text-align: center;
+  }
+
+  .col-md-3 {
+    padding: 12px;
+
+  }
+
+  .icon img {
+    width: 35px;
+  }
+
+  .social {
+    text-align: center;
+    padding: 12px;
+  }
+
+  #street {
+    display: none;
+  }
+
+  #gps {
+    display: none;
+
+  }
+}
+
+
+@media (min-width: 992px) {
+
+  .navbar {
+    text-align: center;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    overflow: hidden !important;
+
+  }
+
+  .navTop {
+    width: 100%;
+  }
+
+  .cityInfo {
+    position: absolute;
+    left: 30.5%;
+    top: 10%;
+    padding-top: 9px !important;
+
+
+  }
+
+  #street {
+    top: 40%;
+    font-size: 14px;
+    opacity: .5;
+
+
+  }
+
+  #gps {
+    left: 29.5%;
+  }
+
+  #logo {
+
+    font-family: 'PT Sans Caption', sans-serif;
+    color: #0DBC91;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  #phone {
+    margin-right: 10% !important;
+  }
+
+
+  .textClinic {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'PT Sans Caption', sans-serif;
+    height: 532px;
+    background-color: #F8FBFA;
+  }
+
+
+  .firstPost {
+
+    height: 100%;
+  }
+
+  .textClinic p {
+    width: 42%;
+
+
+  }
+
+  .lead {
+    margin-top: 20px !important;
+    margin-left: 8vh !important;
+    width: 50% !important;
+  }
+
+  .navbar-collapse {
+    display: flex !important;
+    flex-direction: column !important;
+
+    width: 100%;
+    height: 43px;
+    background-color: #0DBC91;
+
+
+  }
+
+  .navbar-nav {
+    display: flex;
+    flex-direction: row !important;
+    text-align: center;
+
+    width: 60%;
+    margin-left: 22%;
+  }
+
+  .nav-item {
+    width: 15%;
+    line-height: 43px;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  /* a{*/
+  /*  width: 50px;*/
+  /*}*/
+  .nav-item {
+    display: inline !important;
+    width: 0px;
+  }
+
+  .navbar-nav li {
+    display: inline !important;
+    width: 100px;
+  }
+
+  .textClinic .h1 {
+    font-weight: bold;
+
+  }
+
+  .textClinic .lead {
+  }
+
+  .imgClinic {
+    float: right;
+    height: 532px;
+    padding: 0 !important;
+
+  }
+
+  .imgClinic img {
+    height: 532px;
+
+  }
+
+  #doctorApp {
+    display: none;
+  }
+
+  #doctorApp2 {
+    width: 25%;
+    padding: 10px 0px 10px 0px !important;
+    border-radius: 50px;
+    background-color: #0DBC91;
+    color: white;
+    border-color: #0DBC91;
+  }
+
+  #doctorApp2:hover {
+    background-color: white;
+    color: #0DBC91;
+    padding: 0;
+  }
+
+  .carousel {
+    margin-left: 15%;
+    margin-top: 6%;
+    width: 70%;
+    background-color: #E2F0EF;
+    font-family: 'PT Sans Caption', sans-serif;
+
+  }
+
+  .carousel-inner {
+    position: relative;
+    height: 450px;
+  }
+
+  .carousel-indicators {
+    margin: 0 !important;
+  }
+
+  .checkUp {
+    padding-left: 12px !important;
+  }
+
+  .subtitle {
+    font-size: 20px !important;
+    padding-left: 12px !important;
+  }
+
+
+  .checkUpImg {
+    object-fit: fill;
+    display: block;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
+    max-width: 60% !important;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+  }
+
+  .checkUpText {
+    display: block;
+    width: 40%;
+    float: left;
+    padding: 2rem;
+
+  }
+
+  .checkUpText h1 {
+    font-weight: bold;
+
+  }
+
+  .checkUpText li {
+    position: relative;
+    line-height: 40px;
+    color: #0DBC91;
+    font-size: 25px;
+
+
+  }
+
+  .checkUpText li span {
+    color: #364844;
+    font-size: 20px;
+
+
+  }
+
+  .count {
+    padding-left: 0.5rem !important;
+    font-size: 20px;
+  }
+
+  .checkUpText .btn {
+    margin-top: 2rem !important;
+    margin-right: 1rem !important;
+  }
+
+  #doctorApp3 {
+    position: relative;
+    width: 35%;
+    padding: 10px 0px 10px 0px !important;
+    border-radius: 50px;
+    background-color: #0DBC91;
+    color: white;
+    border: none;
+  }
+
+  #doctorApp4 {
+    width: 35%;
+    padding: 10px 0px 10px 0px !important;
+    border-radius: 50px;
+    border-color: #0DBC91;
+    background-color: #E2F0EF;
+    color: #0DBC91;;
+  }
+
+  #doctorApp3:hover {
+    background-color: #E2F0EF;
+    color: #0DBC91;
+    border: 1px solid #0DBC91;
+  }
+
+  #doctorApp4:hover {
+    background-color: #0DBC91;
+    color: #E2F0EF;
+    border: 1px solid #0DBC91;
+  }
+
+  .footer-20192 {
+    position: relative;
+    color: #fff;
+    padding: .5rem;
+    margin-top: 20vh;
+    background-color: #08664F;
+  }
+
+  .footer-20192 .container {
+    position: relative;
+  }
+
+  .footer-20192 h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .site-section {
+    padding-top: 20px;
+    padding-left: 200px !important;
+    width: auto;
+  }
+
+  .col {
+    width: 100px !important;
+  }
+
+  .footer-20192 .social li {
+    display: inline-block;
+    position: relative;
+  }
+
+  .footer-20192 .social li a {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-20192 .social li a > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .footer-20192 .footer-logo {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+  }
+
+  a {
+    text-decoration: none !important;
+  }
+
+  .icon {
+    margin-right: 20px;
+  }
+
+  .navTop .icon img {
+    width: 30px;
+    margin-right: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .col-sm {
+    padding: 0;
+    max-width: 100px !important;
+
+  }
+
+  .col-md-3 {
+    margin-left: 200px;
+  }
+
+  .icon img {
+    width: 35px;
+    margin-right: 20px;
+  }
+
+  .submit {
+    visibility: hidden;
+  }
+}
